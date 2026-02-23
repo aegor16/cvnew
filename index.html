@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-
+<!-- Создать шаблон HTML "!"+"Tab" -->
 <head>
     <meta charset="UTF-8">
     <title>Gor CV</title>
 </head>
 
 <body>
+    <!-- cellspacing - отступ между столбцами-ячейками в таблице -->
     <table cellspacing="15">
+        <!-- <tr> создаёт строку, а <td> — ячейку внутри неё -->
         <tr>
             <td>
-                <img src="avatar.jpg" width="200" alt="Фото">
+                <!-- В src либо файл из этого же каталога либо http-адрес рисунка -->
+                <img src="https://sun9-44.userapi.com/s/v1/ig2/zsbWXdVDbGUtSNGALZrn6PjaP1Ea_yX-YZQGcWoBWMDEHgOESdd182pg4ONGLLxWx3J_Xh8H8SySulif9IjRRi4X.jpg?quality=96&as=32x46,48x68,72x103,108x154,160x228,240x342,360x513,480x684,540x770,640x913,720x1027,1080x1540,1280x1825,1338x1908&from=bu&cs=1338x0" width="200" alt="Фото">
             </td>
             <td>
-                <h1>Вадим</h1>
+                <h1>Горелов Александр Евгеньевич</h1>
                 <p><em>Я самозанятый <strong>фрилансер</strong></em></p>
                 <p>Я люблю смотреть TV и играть в игры</p>
             </td>
@@ -22,7 +25,12 @@
     <hr>
 
     <h2>Мои социальные сети:</h2>
+    <!-- <ul>, <ol> — HTML-списки: неупорядоченный с маркерами и упорядоченный с нумерацией -->
     <ul>
+        <!-- <li> определяет отдельный элемент (пункт) списка -->
+        <!-- _blank - открывает ссылку в новой вкладке -->
+        <!-- Имя ссылки задается между ><, в дсл VKYandex -->
+        <!-- "a" создаёт гиперссылки (якоря)-->
         <li><a href="https://vk.com/aegor16" target="_blank">VKYandex</a></li>
         <li><a href="https://vk.com/id833246271" target="_blank">VKGoogle</a></li>
     </ul>
@@ -41,7 +49,7 @@
     <hr>
 
     <h2>Опыт работы:</h2>
-    <table>
+    <table border="1" cellspacing="15">
         <tr>
             <th>Компания</th>
             <th>Должность</th>
